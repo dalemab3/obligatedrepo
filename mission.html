@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- build:css css/main.css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+
+    <title>Obligated Company</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-fluid sticky-top navbar-dark bg-dark">
+            <div class="row">
+                <div class="col col-sm-2 col-md-6 col-lg-8">
+                    <div class="navbar">
+                        <a class="navbar-brand" style="font-size: 35px;" href="index.html">Obligated.</a>
+                    </div>
+                </div>
+                <div class="col col-sm-2 col-md-6 col-lg-4 ml-auto">
+                    <nav class="navbar navbar-expand-md">
+                        <span class="navbar-toggler navbar-toggler-icon ml-auto" onclick="openNav()"
+                            type="button"></span>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="#">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Track Order</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div id="myNav" class="overlay" style="z-index:2;">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <ul>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Track Order</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="bgFullPage"
+            style="background-image: url('img/pexelAbout.jpeg'); background-attachment: fixed; box-shadow: rgba(0, 0, 0, .5) 0 0 0 1000000px inset;">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-light">
+                            This is the About Us Page
+                        </h1>
+                        <p class="h2">About page</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row row-content py-5">
+                <div class="col-md col-lg-6">
+                    <img class="d-flex w-100" src="img/pexels-friends.jpeg" alt="Gray Shirt">
+                </div>
+                <div class="col-lg-6">
+                    <div class="row justify-content-center pt-3">
+                        <p class="h2 text-uppercase" style="font-size: 30px;">Our Story</p>
+                    </div>
+                    <p class="aboutContent text-center" style="font-size: 20px; font-family: poppins;">Lorem ipsum dolor
+                        sit amet consectetur, adipisicing elit. Unde dicta aperiam rerum,
+                        quia quibusdam, impedit ab laboriosam harum labore suscipit possimus deleniti dolores, quod
+                        repellat quos tenetur repudiandae optio quasi.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-lg-6">
+                    <p class="h2 text-uppercase text-center pt-3 pb-5" style="font-size: 30px;">Timeline</p>
+                </div>
+            </div>
+        </div>
+
+        <section class="container">
+            <div class="row shadowmy-4 p-2 bg-white rounded-lg">
+                <div class="col-md-6">
+                    <div class="timeline">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>November 2014</h4>
+                                <hr class="bg-dark">
+                                <p>Founder & CEO Dale Mabilangan meets his first High School friend and later on long time
+                                    partner Jeffrey Daniels.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>March 2017</h4>
+                                <hr class="bg-dark">
+                                <p>After being bullied in High School for not having enough money to purchase their own
+                                    trending clothing to fit with all the other kids, Dale & Jeffrey come up with an 
+                                    idea to build their own brand called <strong>"Obligated"</strong>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                                <i class="fas fa-piggy-bank"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>July 2018</h4>
+                                <hr class="bg-dark">
+                                <p>After a year of saving up enough money Dale & Jeffrey finally completed their goal 
+                                    of saving enough money to license their company, <strong>"Obligated"</strong>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="timeline">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                                <i class="fa fas fa-copyright"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>September 2018</h4>
+                                <hr class="bg-dark">
+                                <p>Obligated brand was formed.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>November 2018</h4>
+                                <hr class="bg-dark">
+                                <p>Dale & Jeffrey patented a new material that can be used to produce high end trendy clothing while being
+                                    environmentally friendly and stylish at the same time.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-box">
+                            <div class="timeline-icon">
+                                <i class="fas fa-fire"></i>
+                            </div>
+                            <div class="timeline-content">
+                                <h4>December 2019</h4>
+                                <hr class="bg-dark">
+                                <p>After a year has passed, Obligated company has become well-known through out the world, Making record 
+                                    number sales and competing with other hype beast fashion brands for the top spot in the world of 
+                                    fashion.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="bgFullPage" id="Our-Mission"
+            style="background-image: url('img/pexels-1.jpg'); background-attachment: fixed; box-shadow: rgba(0, 0, 0, .5) 0 0 0 1000000px inset;">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-light">
+                            This is the Mission Page
+                        </h1>
+                        <p class="h2">Our mission</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-black text-center pt-5 pb-5" >"Throughout history there are those born with a gun pointed on their head. As a brand we strive
+                        to make those same people know for their endless strive to Great"
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark text-white">
+
+        <div class="container text-center text-md-left">
+            <div class="row">
+                <div class="col-md-2 mx-auto pt-3">
+                    <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Help</h5>
+                    <ul class="footerLinks">
+                        <li>
+                            <a href="#!">Order Status</a>
+                        </li>
+                        <li>
+                            <a href="#!">Shipping & Delivery</a>
+                        </li>
+                        <li>
+                            <a href="#!">Returns</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto pt-3">
+
+                    <div class="navbar-expand-sm">
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">More</h5>
+                        <ul class="footerLinks">
+                            <li>
+                                <a href="#!">Mens</a>
+                            </li>
+                            <li>
+                                <a href="#!">Womens</a>
+                            </li>
+                            <li>
+                                <a href="#!">Coming Soon</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div>
+                        <h3 class="text-center">FOLLOW US</h3>
+                    </div>
+                    <div class="socialButtons d-flex justify-content-center">
+                        <img src="img/twitter.png" class="btn-floating btn-lg" type="button" role="button"
+                            alt="twitter-icon">
+                        <img src="img/instagram.png" class="btn-floating btn-lg" type="button" role="button"
+                            alt="instagram-icon">
+                        <img src="img/facebook.png" class="btn-floating btn-lg" type="button" role="button"
+                            alt="facebook-icon">
+                        <img src="img/youtube.png" class="btn-floating btn-lg" type="button" role="button"
+                            alt="youtube-icon">
+                    </div>
+                </div>
+
+                <div class="col-md-4 mt-4">
+                    <div>
+                        <h3 class="text-center text-uppercase">subscribe to our newsletter</h3>
+                    </div>
+                    <form class="input-group">
+                        <input type="text" class="form-control form-control-sm" placeholder="Enter Your Email"
+                            aria-label="Your email">
+                        <div class="input-group-append">
+                            <button class="btn btn-sm btn-outline-light my-0 text-uppercase" type="button">sign
+                                up</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-copyright text-center py-3">
+                <p>© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/"> Obligated.com</a></p>
+            </div>
+        </div>
+
+    </footer>
+    <!-- Footer -->
+
+
+    <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
+    <!-- build:js js/main.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <!-- endbuild -->
+
+</body>
+
+</html>

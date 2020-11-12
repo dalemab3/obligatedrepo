@@ -1,0 +1,322 @@
+@font-face {
+    font-family: "poppins";
+    src: url("fonts/Poppins-Light.ttf");
+    font-style: normal;
+    font-weight: 100; }
+  
+  @font-face {
+    font-family: "poppins";
+    src: url("fonts/Poppins-SemiBold.ttf");
+    font-style: normal;
+    font-weight: 200; }
+  
+  @font-face {
+    font-family: "mytupi";
+    src: url("fonts/mytupi.ttf");
+    font-style: normal;
+    font-weight: 100; }
+  
+  .homeCards {
+    padding-top: 15px; }
+  
+  body {
+    font-family: "mytupi"; }
+  
+  li {
+    font-family: "poppins"; }
+  
+  .navbar {
+    min-height: 80px; }
+  
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; }
+  
+  /* navBar */
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s; }
+  
+  .overlay-content {
+    font-family: "poppins";
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px; }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s; }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1; }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px; }
+  
+  @media screen and (max-height: 450px) {
+    .homeCards p {
+      font-size: 20px; }
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px; } }
+  
+  hr.solid {
+    border-top: 2px solid #999; }
+  
+  .bg-dark {
+    background-color: #1A1A1A !important; }
+  
+  /* navBar end*/
+  /* fullscreen Image */
+  .bgFullPage {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+    .bgFullPage h1 {
+      font-size: 60px; }
+  
+  /* homeInfo Start*/
+  .homeInfo {
+    padding-top: 30px;
+    padding-bottom: 30px; }
+  
+  .homeAbout {
+    transition: transform .2s;
+    padding: 0 !important; }
+    .homeAbout p {
+      position: absolute;
+      top: 50%;
+      left: -8%;
+      padding: 5px;
+      text-align: center;
+      width: 113%;
+      font-size: 40px;
+      line-height: 20px;
+      margin-top: -20px;
+      z-index: 3; }
+  
+  .homeAbout:hover {
+    -ms-transform-: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05); }
+  
+  /* homeInfo end*/
+  @media screen and (max-height: 768px) {
+    .aboutContent p {
+      font-size: 40px; } }
+  
+  /* footer start*/
+  .socialButtons .btn-lg {
+    padding: 8px 8px !important; }
+  
+  .footerLinks {
+    list-style-type: none;
+    padding-left: 0 !important; }
+    .footerLinks a:link {
+      color: #FFFFFF80; }
+    .footerLinks a:visited {
+      color: #FFFFFF80; }
+    .footerLinks a:hover {
+      color: white;
+      text-decoration: none; }
+  
+  .footer-copyright p {
+    font-family: "poppins";
+    color: #FFFFFF80;
+    font-size: 12px;
+    margin: 0; }
+  
+  .footer-copyright a:link {
+    color: #FFFFFF80; }
+  
+  .footer-copyright a:visited {
+    color: #FFFFFF80; }
+  
+  .footer-copyright a:hover {
+    color: white;
+    text-decoration: none; }
+  
+  .socialButtons .btn-lg {
+    padding: 8px 8px !important; }
+  
+  .footerLinks {
+    list-style-type: none;
+    padding-left: 0 !important; }
+    .footerLinks a:link {
+      color: #FFFFFF80; }
+    .footerLinks a:visited {
+      color: #FFFFFF80; }
+    .footerLinks a:hover {
+      color: white;
+      text-decoration: none; }
+  
+  .footer-copyright p {
+    font-family: "poppins";
+    color: #FFFFFF80;
+    font-size: 12px;
+    margin: 0; }
+  
+  .footer-copyright a:link {
+    color: #FFFFFF80; }
+  
+  .footer-copyright a:visited {
+    color: #FFFFFF80; }
+  
+  .footer-copyright a:hover {
+    color: white;
+    text-decoration: none; }
+  
+  /* footer end*/
+  /* timeline */
+  .timeline {
+    border-left: 1px dashed black;
+    margin-left: 20px;
+    margin-bottom: 30px;
+    font-family: "poppins"; }
+  
+  .timeline .timeline-box {
+    padding-left: 40px;
+    margin-bottom: 30px;
+    position: relative; }
+  
+  .timeline-icon {
+    left: -18px;
+    top: 0;
+    background-color: red;
+    position: absolute;
+    width: 35px;
+    z-index: 1;
+    text-align: center;
+    line-height: 35px; }
+  
+  .timeline-icon {
+    color: #fff; }
+  
+  .timeline .timeline-icon:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.5;
+    z-index: -1;
+    right: 0;
+    bottom: 0;
+    margin: -4px; }
+  
+  /* Card Overlay */
+  .card-overlay {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    box-sizing: border-box !important; }
+    .card-overlay img {
+      z-index: 2; }
+  
+  .card-heading {
+    text-align: center;
+    color: white; }
+    .card-heading h3 {
+      margin: 0;
+      padding-top: 10px; }
+    .card-heading .card-link {
+      font-family: "poppins"; }
+      .card-heading .card-link h4 > a {
+        position: relative;
+        color: white;
+        text-decoration: none;
+        font-size: 20px; }
+      .card-heading .card-link h4 > a:hover {
+        color: white; }
+      .card-heading .card-link h4 > a::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: white;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out 0s; }
+      .card-heading .card-link h4 > a:hover::before {
+        visibility: visible;
+        transform: scaleX(1); }
+  
+  .product-page {
+    padding-top: 10%;
+    padding-bottom: 20%; }
+  
+  /* product-gallery */
+  img {
+    vertical-align: middle; }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative; }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+    margin: 15px; }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer; }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    top: 0; }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both; }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%; }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6; }
+  
+  .product-gallery {
+    box-sizing: border-box; }
+    .product-gallery .active,
+    .product-gallery .demo:hover {
+      opacity: 1;
+      border: solid rgba(0, 0, 0, 0.75); }
+  
+  /* Product Gallery End*/
+  .product-description {
+    margin-top: 90px;
+    margin-bottom: 100px; }
+  
